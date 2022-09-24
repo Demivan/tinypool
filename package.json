@@ -14,6 +14,7 @@
     "test:dev": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch --no-coverage",
     "dev": "tsup --watch",
     "build": "tsup",
+    "bench": "node benchmark/simple-benchmark.mjs",
     "publish": "clean-publish",
     "prepare": "husky install"
   },
@@ -49,6 +50,7 @@
     "prettier": "^2.5.1",
     "regenerator-runtime": "^0.13.9",
     "snazzy": "^9.0.0",
+    "tinybench": "^2.1.5",
     "tsup": "^5.11.6",
     "typescript": "4.3.x",
     "vite": "^2.7.3"

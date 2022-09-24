@@ -22,6 +22,7 @@ specifiers:
   prettier: ^2.5.1
   regenerator-runtime: ^0.13.9
   snazzy: ^9.0.0
+  tinybench: ^2.1.5
   tsup: ^5.11.6
   typescript: 4.3.x
   vite: ^2.7.3
@@ -48,6 +49,7 @@ devDependencies:
   prettier: 2.7.1
   regenerator-runtime: 0.13.9
   snazzy: 9.0.0
+  tinybench: 2.1.5
   tsup: 5.12.9_w42fuc5ytk33cxmvw2eywssbqm
   typescript: 4.3.5
   vite: 2.9.12
@@ -3503,6 +3505,10 @@ packages:
 
   /throat/6.0.1:
     resolution: {integrity: sha512-8hmiGIJMDlwjg7dlJ4yKGLK8EsYqKgPWbG3b4wjJddKNwc7N7Dpn08Df4szr/sZdMVeOstrdYSsqzX6BYbcB+w==}
+    dev: true
+
+  /tinybench/2.1.5:
+    resolution: {integrity: sha512-ak+PZZEuH3mw6CCFOgf5S90YH0MARnZNhxjhjguAmoJimEMAJuNip/rJRd6/wyylHItomVpKTzZk9zrhTrQCoQ==}
     dev: true
 
   /tmpl/1.0.5:
